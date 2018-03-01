@@ -1,0 +1,22 @@
+#wrap { width: 100%; max-width: 1920px; min-width: 1200px; margin: 0 auto; height: 100%; background: #f1f1f1; }
+#wrap .content { width: 100%; }
+#wrap .content .banner { max-width: 100%; height: 300px; position: relative; }
+#wrap .content .productCon { width: 100%; background: #fff; }
+#wrap .content .productCon .product-1200 { width: 1200px; margin: 0 auto; padding: 60px 0 50px; box-sizing: border-box; }
+#wrap .content .productCon h3 { font-size: 24px; color: #333; text-align: center; margin-bottom: 70px; border-bottom: 1px solid #ccc; padding-bottom: 40px; box-sizing: border-box; }
+#wrap .content .productCon .luntanCon { width: 100%; }
+#wrap .content .productCon .luntanCon .title { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; margin-bottom: 70px; }
+#wrap .content .productCon .luntanCon .title p { color: #666; margin: 0 20px; }
+#wrap .content .productCon .luntanCon .title p:last-child { color: #D60A16; }
+#wrap .content .productCon .luntanCon .text { padding-bottom: 50px; box-sizing: border-box; border-bottom: 1px solid #ccc; }
+#wrap .content .productCon .luntanCon .text p { line-height: 3; letter-spacing: 2px; color: #666; }
+#wrap .content .productCon .luntanCon .moreInfo { margin-top: 80px; }
+#wrap .content .productCon .luntanCon .moreInfo p { color: #666; margin: 30px 0; }
+#wrap .content .productCon .luntanCon .moreInfo p:last-child { color: #ccc; }
+#wrap .footer { width: 100%; height: 500px; background: #fff; padding: 60px 0 0; box-sizing: border-box; }
+#wrap .footer .footerCon { width: 1200px; height: 440px; margin: 0 auto; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
+#wrap .footer .footerCon dl { height: 440px; text-align: center; }
+#wrap .footer .footerCon dl dt { font-size: 20px; margin-bottom: 80px; color: #333; cursor: pointer; }
+#wrap .footer .footerCon dl dd ul li { margin-bottom: 20px; color: #666; cursor: pointer; }
+#wrap .footer .footerCon dl dd h4 { width: 120px; height: 120px; margin: 40px 0 30px; }
+#wrap .footer .footerCon dl dd h5 { width: 160px; height: 50px; margin: 80px 0 30px; }

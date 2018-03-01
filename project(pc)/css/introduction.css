@@ -1,0 +1,34 @@
+#wrap { width: 100%; max-width: 1920px; min-width: 1200px; margin: 0 auto; height: 100%; background: #f1f1f1; }
+#wrap .content { width: 100%; }
+#wrap .content .banner { max-width: 100%; height: 300px; position: relative; }
+#wrap .content .productCon { width: 100%; }
+#wrap .content .productCon .product-1200 { background: #fff; width: 1200px; margin: 0 auto; }
+#wrap .content .productCon .product-1200 .introduct { width: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; color: #333; padding-top: 20px; box-sizing: border-box; }
+#wrap .content .productCon .product-1200 .introduct dt { width: 580px; padding: 70px 40px 0; box-sizing: border-box; }
+#wrap .content .productCon .product-1200 .introduct dt h3 { font-size: 30px; margin-bottom: 60px; }
+#wrap .content .productCon .product-1200 .introduct dt h4 { margin-bottom: 30px; }
+#wrap .content .productCon .product-1200 .introduct dt p { line-height: 2; letter-spacing: 2px; color: #666; }
+#wrap .content .productCon .product-1200 .introduct dd { width: 580px; height: 500px; padding-right: 20px; box-sizing: border-box; }
+#wrap .content .productCon .product-1200 .function { margin-top: 90px; border-bottom: 1px solid #eee; }
+#wrap .content .productCon .product-1200 .function dt { margin-bottom: 10px; text-indent: 40px; font-size: 30px; }
+#wrap .content .productCon .product-1200 .function dd { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; }
+#wrap .content .productCon .product-1200 .function dd ul { width: 580px; padding: 40px; box-sizing: border-box; }
+#wrap .content .productCon .product-1200 .function dd ul li { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; margin: 15px 0; }
+#wrap .content .productCon .product-1200 .function dd ul li i { display: inline-block; width: 3px; height: 3px; border-radius: 50%; background: #ccc; margin-right: 10px; }
+#wrap .content .productCon .product-1200 .function dd ul:hover { background: #D60A16; color: #fff; }
+#wrap .content .productCon .product-1200 .value { width: 100%; }
+#wrap .content .productCon .product-1200 .value h3 { font-size: 30px; text-indent: 50px; margin-top: 110px; }
+#wrap .content .productCon .product-1200 .value ul { padding: 80px 40px 40px; box-sizing: border-box; }
+#wrap .content .productCon .product-1200 .value ul li { margin-bottom: 80px; }
+#wrap .content .productCon .product-1200 .value ul li dl { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+#wrap .content .productCon .product-1200 .value ul li dl dt { width: 130px; height: 90px; margin-right: 40px; }
+#wrap .content .productCon .product-1200 .value ul li dl dd { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }
+#wrap .content .productCon .product-1200 .value ul li dl dd h4 { font-size: 24px; margin-bottom: 15px; color: #333; }
+#wrap .content .productCon .product-1200 .value ul li dl dd p { color: #666; line-height: 2; }
+#wrap .footer { width: 100%; height: 500px; background: #fff; padding: 60px 0 0; box-sizing: border-box; }
+#wrap .footer .footerCon { width: 1200px; height: 440px; margin: 0 auto; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
+#wrap .footer .footerCon dl { height: 440px; text-align: center; }
+#wrap .footer .footerCon dl dt { font-size: 20px; margin-bottom: 80px; color: #333; cursor: pointer; }
+#wrap .footer .footerCon dl dd ul li { margin-bottom: 20px; color: #666; cursor: pointer; }
+#wrap .footer .footerCon dl dd h4 { width: 120px; height: 120px; margin: 40px 0 30px; }
+#wrap .footer .footerCon dl dd h5 { width: 160px; height: 50px; margin: 80px 0 30px; }

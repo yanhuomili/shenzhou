@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>产品列表</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/productList.css"/>
+	</head>
+	<body>
+		<div id="wrap">
+			<div class="top">
+				<div class="nav">
+					<div class="logo"><img src="img/logo.png"/></div>
+					<ul class="navbar">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="introduction.html">云科易服简介</a></li>
+						<li><a class="active" href="###">产品与解决方案</a></li>
+						<li><a href="apply.html">申请试用</a></li>
+						<li><a href="luntan.html">论坛</a></li>
+						<li><a href="partner.html">合作伙伴</a></li>
+						<li><a href="http://www.digitalchina.com/show-32-112-1.html" target="_blank">关于我们</a></li>
+						<li><a href="https://csm.dcclouds.com/" target="_blank">登录</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="content">
+				<!--轮播图-->
+				<div class="banner">
+					<img src="img/chanpin_banner1.png"/>
+				</div>
+				<!--产品-->
+				<div class="productNav">
+					<ul>
+						<li>运营服务管理</li>
+						<li>数据可视化</li>
+						<li>监控分析</li>
+						<li>高级人天服务</li>
+					</ul>
+				</div>
+				<div class="product">
+					
+					<div class="same">
+						<h2 class="active">运营服务管理</h2>
+						<dl>
+							<dd class="dd2">
+								<ul>
+									<li>
+										<a href="yunyingDetail.html">
+											<i>云科易服Cloud Service Management</i>
+											<span>
+												<img src="img/yuan.png"/>
+											</span>
+										</a>
+									</li>
+								</ul>
+							</dd>
+						</dl>
+					</div>
+					<div class="same">
+						<h2>数据可视化</h2>
+						<dl>
+							<dd class="dd1">
+								<p><a href="productDetail.html">集群分析</a></p>
+								<p><a href="productDetail2.html">跨数据库联接</a></p>
+								<p><a href="productDetail3.html">功能强大的新数据联接器</a></p>
+								<p><a href="productDetail4.html">移动共享</a></p>
+							</dd>
+						</dl>
+					</div>
+					<div class="same">
+						<h2>监控分析</h2>
+						<dl>
+							<dd class="dd2">
+								<ul>
+									<li>
+										<a href="splunkDetail.html">
+											<i>Splunk</i>
+											<span>
+												<img src="img/yuan.png"/>
+											</span>
+										</a>
+									</li>
+								</ul>
+							</dd>
+						</dl>
+					</div>
+					
+					<div class="same">
+						<h2>高级人天服务</h2>
+						<dl>
+							<dd class="dd3">
+								<br />
+								<br />
+								<br />
+								<br />
+								<br />
+								<br />
+								<!--<ul>
+									<li>
+										<img src="img/csm.png"/>
+										<span>CSM服务管理</span>
+									</li>
+									<li>
+										<img src="img/oracle.png"/>
+										<span>Oracle数据库服务</span>
+									</li>
+									<li>
+										<img src="img/360.png"/>
+										<span>DB360</span>
+									</li>
+									<li>
+										<img src="img/dnengyun.png"/>
+										<span>登云一体机高级无人服务</span>
+									</li>
+								</ul>-->
+							</dd>
+						</dl>
+					</div>
+					
+					
+				</div>
+			</div>
+			<div class="footer">
+				<div class="footerCon">
+					<dl>
+						<dt>常见问题</dt>
+						<dd>
+							<ul>
+								<li>使用指引</li>
+								<li>备案帮助</li>
+								<li>服务协议</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>产品帮助</dt>
+						<dd>
+							<ul>
+								<li>充值支付问题</li>
+								<li>合同发票问题</li>
+								<li>产品问题反馈</li>
+								<li>管理功能问题</li>
+								<li>其他问题</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>快速入口</dt>
+						<dd>
+							<ul>
+								<li>自助管理品台</li>
+								<li>网站备案中心</li>
+								<li>易服真伪查询</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>活动专区</dt>
+						<dd>
+							<ul>
+								<li>块云VPS升级</li>
+								<li>新品上线</li>
+							</ul>
+						</dd>
+					</dl>
+					<!--<dl>
+						<dd>
+							<h4><img src="img/erweima.png"/></h4>
+							<p>关注微信</p>
+						</dd>
+					</dl>-->
+					<dl>
+						<dd>
+							<h5><img src="img/logo.png"/></h5>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		
+		<script type="text/javascript">
+			$(function(){
+				
+				$('.productNav ul').on('click','li',function(){
+					$(this).addClass('active').siblings().removeClass('active');
+				})
+				
+				
+				
+				
+				
+				
+			})
+		</script>
+	</body>
+</html>

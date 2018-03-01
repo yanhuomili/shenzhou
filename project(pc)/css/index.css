@@ -1,0 +1,75 @@
+#wrap { width: 100%; max-width: 1920px; min-width: 1200px; margin: 0 auto; height: 100%; background: #f1f1f1; }
+#wrap .top { width: 100%; height: 90px; background: #fff; }
+#wrap .top .nav { width: 1200px; margin: 0 auto; height: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+#wrap .top .nav .logo { width: 160px; height: 50px; margin-right: 150px; cursor: pointer; }
+#wrap .top .nav .navbar { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+#wrap .top .nav .navbar li { padding: 0 20px; box-sizing: border-box; cursor: pointer; }
+#wrap .top .nav .navbar li .active { color: #D60A16; }
+#wrap .content { width: 100%; }
+#wrap .content .banner { position: relative; max-width: 100%; height: 510px; }
+#wrap .content .banner .swiper-pagination-bullet { width: 12px; height: 12px; border: 2px solid #eee; border-radius: 50%; box-sizing: border-box; }
+#wrap .content .banner .swiper-pagination-bullet-active { border: 0; }
+#wrap .content .banner .login { width: 300px; height: 300px; position: absolute; right: 500px; top: 100px; z-index: 999; }
+#wrap .content .platform { width: 100%; height: 250px; background: #fff; margin-bottom: 30px; }
+#wrap .content .platform ul { width: 1200px; margin: 0 auto; height: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+#wrap .content .platform ul li { width: 20%; height: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; text-align: center; }
+#wrap .content .platform ul li img { width: 90px; height: 90px; margin: 10px 0; }
+#wrap .content .platform ul li h3 { width: 100%; font-size: 24px; margin: 10px 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#wrap .content .platform ul li p { width: 100%; margin: 10px 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#wrap .content .productClassify { width: 100%; height: 540px; padding: 20px 0; box-sizing: border-box; }
+#wrap .content .productClassify ul { width: 1200px; height: 500px; margin: 0 auto; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+#wrap .content .productClassify ul dl { width: 300px; margin: 0 5px; height: 100%; position: relative; cursor: pointer; overflow: hidden; }
+#wrap .content .productClassify ul .active { width: 600px; }
+#wrap .content .productClassify ul dt, #wrap .content .productClassify ul dd { width: 300px; height: 500px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; background: #fff; font-size: 24px; color: #333; }
+#wrap .content .productClassify ul dt h4, #wrap .content .productClassify ul dd h4 { font-weight: bold; }
+#wrap .content .productClassify ul dt p, #wrap .content .productClassify ul dd p { margin-top: 50px; width: 150px; white-space: initial; text-align: center; }
+#wrap .content .productClassify ul .thr { background: #e8eaeb; color: #666; position: absolute; top: 0; left: 290px; z-index: 1; }
+#wrap .content .productClassify ul dt { position: relative; z-index: 2; }
+#wrap .content .solve { width: 100%; height: 750px; background: url(../img/pic3.png) no-repeat center center; background-size: 100% 100%; }
+#wrap .content .solve .solveCon { width: 1200px; height: 100%; margin: 0 auto; }
+#wrap .content .solve .solveCon h2 { width: 100%; height: 140px; line-height: 140px; text-align: center; }
+#wrap .content .solve .solveCon ul { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
+#wrap .content .solve .solveCon ul li { width: 280px; height: 500px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; text-align: center; padding: 60px 40px 40px; box-sizing: border-box; font-size: 24px; color: #d60a16; position: relative; }
+#wrap .content .solve .solveCon ul li img { width: 200px; height: 200px; margin-bottom: 60px; }
+#wrap .content .solve .solveCon ul li p { font-weight: bold; letter-spacing: 3px; }
+#wrap .content .solve .solveCon ul .li1 { background: #e1525a; color: #fff; cursor: pointer; }
+#wrap .content .solve .solveCon ul .li1 .down dl { margin-bottom: 80px; }
+#wrap .content .solve .solveCon ul .li1 .down dt { font-size: 24px; margin-bottom: 50px; }
+#wrap .content .solve .solveCon ul .li1 .down dd { line-height: 1.8; font-size: 18px; }
+#wrap .content .solve .solveCon ul .li1 .down p { width: 190px; height: 60px; line-height: 60px; background: #77161d; font-size: 24px; margin: 0 auto; }
+#wrap .content .solve .solveCon ul .li1 .up { width: 280px; height: 500px; position: absolute; top: 0; left: 0; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; background: #ddd; }
+#wrap .content .solve .solveCon ul .li1 .up > p { color: #D60A16; }
+#wrap .content .luntan { width: 100%; }
+#wrap .content .luntan .luntanCon { width: 1200px; margin: 0 auto 40px; }
+#wrap .content .luntan .luntanCon .top { width: 100%; height: 110px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: end; -webkit-align-items: flex-end; -ms-flex-align: end; align-items: flex-end; margin-bottom: 40px; background: #f1f1f1; }
+#wrap .content .luntan .luntanCon .top dt { font-size: 30px; margin-right: 140px; }
+#wrap .content .luntan .luntanCon .top dd { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; font-size: 20px; }
+#wrap .content .luntan .luntanCon .top dd p { padding: 0 15px; box-sizing: border-box; position: relative; cursor: pointer; }
+#wrap .content .luntan .luntanCon .top dd .active { color: #D60A16; }
+#wrap .content .luntan .luntanCon .top dd .p1:after { display: inline-block; content: ""; width: 1px; height: 20px; background: #ccc; position: absolute; top: 50%; right: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+#wrap .content .luntan .luntanCon .bot { width: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+#wrap .content .luntan .luntanCon .bot li { width: 590px; background: #fff; color: #333; margin-bottom: 20px; cursor: pointer; }
+#wrap .content .luntan .luntanCon .bot li dl { width: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+#wrap .content .luntan .luntanCon .bot li dl dt { width: 120px; height: 120px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; border-right: 1px solid #f1f1f1; box-sizing: border-box; }
+#wrap .content .luntan .luntanCon .bot li dl dt h2 { margin-bottom: 25px; font-size: 42px; }
+#wrap .content .luntan .luntanCon .bot li dl dd { width: 470px; height: 120px; line-height: 120px; text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: left; text-indent: 30px; }
+#wrap .content .luntan .luntanCon .bot li:hover { background: #D60A16; color: #fff; }
+#wrap .content .luntan .luntanCon .bot li:hover dd { background: #e44f58; }
+#wrap .content .apply { width: 100%; height: 500px; background: url(../img/pic3.png) no-repeat center center; }
+#wrap .content .apply .applyCon { width: 1200px; height: 100%; margin: 0 auto; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; text-align: center; }
+#wrap .content .apply .applyCon h4 { font-size: 34px; }
+#wrap .content .apply .applyCon p { width: 300px; height: 70px; line-height: 70px; background: #D60A16; color: #fff; font-size: 24px; margin-top: 130px; cursor: pointer; }
+#wrap .content .partner { width: 100%; height: 150px; background: #fff; margin: 20px 0 60px; color: #333; }
+#wrap .content .partner .partnerCon { width: 1200px; height: 100%; margin: 0 auto; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; color: #333; }
+#wrap .content .partner .partnerCon dt { font-size: 30px; }
+#wrap .content .partner .partnerCon dd { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; padding: 0 30px; position: relative; margin-left: 30px; }
+#wrap .content .partner .partnerCon dd img { width: 180px; height: 100px; margin: 0 25px; }
+#wrap .content .partner .partnerCon dd:before { display: inline-block; content: "<"; width: 24px; height: 24px; position: absolute; top: 50%; left: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+#wrap .content .partner .partnerCon dd:after { display: inline-block; content: ">"; width: 24px; height: 24px; position: absolute; top: 50%; right: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+#wrap .footer { width: 100%; height: 500px; background: #fff; padding: 60px 0 0; box-sizing: border-box; }
+#wrap .footer .footerCon { width: 1200px; height: 440px; margin: 0 auto; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
+#wrap .footer .footerCon dl { height: 440px; text-align: center; }
+#wrap .footer .footerCon dl dt { font-size: 20px; margin-bottom: 80px; color: #333; cursor: pointer; }
+#wrap .footer .footerCon dl dd ul li { margin-bottom: 20px; color: #666; cursor: pointer; }
+#wrap .footer .footerCon dl dd h4 { width: 120px; height: 120px; margin: 40px 0 30px; }
+#wrap .footer .footerCon dl dd h5 { width: 160px; height: 50px; margin: 80px 0 30px; }
